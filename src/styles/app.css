@@ -1,0 +1,55 @@
+#home-flecha-img{
+    width: 100px;
+    height: 100px;
+   position:relative;
+   left: 350px;
+   bottom: 140px;
+   cursor: pointer;
+}
+#home-logo{
+    border-radius: 26px;
+    width: 251px;
+    position: relative;
+    right: 750px;
+   
+    }
+
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 55px;
+}
+.App{
+    background-image:
+    url('../imagenes/img-viajes.jpeg');
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-size: 100%,100%;
+    object-fit: cover;
+   font-style: italic;
+   color: white;
+   filter: brightness(90%);
+}
+
+.home-description{
+    font-size: 32px;
+    padding: 55px;
+}
+.home-start-browsing{
+    font-size: 23px;
+   
+}
+#home-home-img{
+   position:relative;
+   left:800px;
+   bottom:500px;
+   height: 150px;
+   cursor: pointer;
+}
+
+
+
+
+
