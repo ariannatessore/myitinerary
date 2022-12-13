@@ -10,7 +10,7 @@
     border-radius: 26px;
     width: 251px;
     position: relative;
-    right: 750px;
+    right: 700px;
    
     }
 
@@ -43,13 +43,92 @@
 }
 #home-home-img{
    position:relative;
-   left:800px;
+   left:1300px;
    bottom:500px;
    height: 150px;
    cursor: pointer;
 }
 
+#home-wave{
+    width:1600px ;
+}
+#search-container{
+  
+  background-image:
+    url('../imagenes/img-viajes.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%,100%;
+    object-fit: cover;
+   font-style: italic;
+   color: white;
+   filter: brightness(90%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 55px;
+  
+}
+#search-logo{
+    border-radius: 26px;
+    width: 251px;
+    position: relative;
+   right: 680px;
+}
+#search-home-img{
+   
+    
+   
+    cursor: pointer;
+  position:absolute;
+    bottom: 500px;
+    left:  1500px;
+    height: 150px;
+}
+  #img-city{
+    height: 148px;
+    width: 254px;
+    border-radius : 10px;
+  }
+
+  
+ 
+ .form{
+
+    position: relative;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span{
+
+        position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
 
 
 
+.form-input{
+width: 500px;
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
 
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
